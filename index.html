@@ -3,49 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Mayuri's Portfolio</title>
   <style>
-    /* Basic styling */
+    /* General styles */
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", sans-serif;
       margin: 0;
-      padding: 20px;
-      background-color: #f4f4f4;
+      padding: 0;
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+      color: #333;
     }
+
     header {
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: white;
       text-align: center;
-      padding-bottom: 20px;
+      padding: 40px 20px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
     }
-    h1 {
-      margin-bottom: 5px;
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
+    header p {
+      font-size: 1.2rem;
+    }
+
     nav {
-      margin-bottom: 30px;
       text-align: center;
+      background: #fff;
+      padding: 15px;
+      border-bottom: 2px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
     nav a {
-      margin: 0 15px;
+      margin: 0 20px;
       text-decoration: none;
-      color: #333;
+      color: #ff4f81;
       font-weight: bold;
+      transition: 0.3s;
     }
+    nav a:hover {
+      color: #333;
+    }
+
     section {
       background: white;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
-    .projects img {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 5px;
+    section h2 {
+      color: #ff4f81;
+      margin-bottom: 15px;
     }
+
+    .skills p {
+      margin: 8px 0;
+    }
+
     footer {
       text-align: center;
-      font-size: 0.9em;
-      color: #666;
+      padding: 20px;
       margin-top: 30px;
+      background: #ff4f81;
+      color: white;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
     }
   </style>
 </head>
@@ -58,33 +87,33 @@
 
 <nav>
   <a href="#about">About Me</a>
-  <a href="#education">education</a>
-  <a href="#skills">skills</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
   <a href="#contact">Contact</a>
 </nav>
-</header>
+
 <section id="about">
   <h2>About Me</h2>
-  <p> I'm Mayuri, a B.Sc information technology student at SIGC,trichy
-    <p>My goal is to build a strong career in IT and keep learning everyday</p>
+  <p>I'm Mayuri, a B.Sc Information Technology student at SIGC, Trichy.</p>
+  <p>My goal is to build a strong career in IT and keep learning every day.</p>
 </section>
+
 <section id="education">
-  <h2>Projects</h2>
-  <div class="B.Sc Information technology-SIGC,trichy(pursuing)">
-    <h3></h3>
-  </p>B.Sc Information technology-SIGC,trichy(pursuing)"</p>
-    </div>
-    <div class="skills">
-    <h3>skills</h3>
-    <p>programming:c,java,python</p>
-    <p>Database:MySql
-  </div>
+  <h2>Education</h2>
+  <p><strong>B.Sc Information Technology</strong> - SIGC, Trichy (Pursuing)</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p><strong>Programming:</strong> C, Java, Python</p>
+  <p><strong>Database:</strong> MySQL</p>
 </section>
 
 <section id="contact">
   <h2>Contact Me</h2>
-  <p>Email: mayuri@example.com</p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/Mayuri" target="_blank">Mayuri</a></p>
+  <p><strong>Email:</strong> mayuri@example.com</p>
+  <p><strong>Phone:</strong> +91 98765 43210</p>
+  <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/Mayuri" target="_blank">Mayuri</a></p>
 </section>
 
 <footer>
